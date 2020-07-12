@@ -19,3 +19,4 @@ while True :
     time.sleep(10)
     nexto = driver.find_element_by_xpath('//*[@id="page-traversal"]/a[2]').click()
 //kacung
+//kacung2
