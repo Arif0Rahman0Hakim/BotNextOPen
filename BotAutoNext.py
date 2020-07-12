@@ -1,7 +1,7 @@
 import time
 from selenium import webdriver
-Username = 'RuizTML11@yahoo.com'
-Passwd = 'Kalingga69'
+Username = 'emal'
+Passwd = 'passwd'
 komen = 'Hadir'
 driver = webdriver.Chrome('/home/arif/Desktop/chromedriver_linux64/chromedriver')
 driver.get('https://umkt.ucm.ac.id/courses/networking-infrastruture-management/homepage/')
@@ -18,4 +18,3 @@ driver.get('https://umkt.ucm.ac.id/courses/networking-infrastruture-management/i
 while True :
     time.sleep(10)
     nexto = driver.find_element_by_xpath('//*[@id="page-traversal"]/a[2]').click()
-//update
